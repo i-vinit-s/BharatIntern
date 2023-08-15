@@ -87,3 +87,28 @@ select {
 #r {
   background-color: white;
 }
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 600px) {
+  .temperature {
+    width: 90%;
+    height: auto;
+    padding: 30px;
+  }
+  
+  .temperature h1 {
+    padding-bottom: 30px;
+  }
+  
+  .temperature input,
+  .output,
+  select {
+    padding: 12px 15px;
+    margin: 5px 0;
+  }
+  
+  .button,
+  .button2 {
+    margin: 5px 0;
+  }
+}
